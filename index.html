@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List Apps With JavaScript</title>
+     <link rel = "stylesheet" type = "text/css" href = "style.css" />
+     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+     <script src='finalproject.js'></script>
+  </head>
+  <body>
+
+    <h2 id="tagTask" style="text-align: center;margin-top:50px; font-family: Aldrich;">
+      New To Do List
+    </h2>
+    <br>
+    <br>
+    <div id="newnotes">
+        <textarea id="notes" placeholder="Type your new note here..."></textarea><br>
+        <br>
+        <!-- <a href="#" onclick="operate()" style="margin-left: 50%;">Classify</a> -->
+        <input type="submit" class="button" value = "Save Note" onclick="formProcess()">
+    </div>
+
+    <div id="tablearea" style="color:black;margin-top:100px;">
+        <table id="tablenotes">
+            <th>Your To Do List</th>
+            <th>Action</th>
+        </table>
+    </div>
+  </body>
+</html>
